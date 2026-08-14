@@ -2,7 +2,7 @@
 apiVersion: kubevirt.io/v1
 kind: VirtualMachine
 metadata:
-  name: control-vm3
+  name: control-vm4
   namespace: {{ .Values.username }}-travel-control-new
   annotations:
     argocd.argoproj.io/sync-wave: "1"
